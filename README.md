@@ -1,4 +1,18 @@
-# Rated Restaurants
+# Rated Restaurants!
+
+SETUP:
+
+- npm i jest -D (lets us write tests)
+- npm i supertest -D (an extenstion to jest that lets us make requests to server during test)
+- npm i express
+- npm run setup-db
+- npm run run-seed
+- change test script to "PGDATABASE=rated_restaurants jest"
+- add beforeEach
+- write tests
+- write app
+- write controllers
+- write models
 
 ## A micro [yelp](https://www.yelp.co.uk/c/manchester/restaurants) clone API using Express and SQL
 
